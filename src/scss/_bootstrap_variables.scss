@@ -1,0 +1,30 @@
+$grid-breakpoints: (
+        xs: 0,
+        sm: 576px,
+        md: 768px,
+        lg: 992px,
+        xl: 1250px,
+        //xxl: 1400px
+);
+$container-max-widths: (
+        sm: 540px,
+        md: 720px,
+        lg: 960px,
+        xl: 1200px,
+        //xxl: 1170px //1320
+);
+$grid-columns:                12 !default;  //12
+$grid-gutter-width:           30px !default;  //30
+
+$modal-md:                          400px;
+$modal-lg:                          800px;
+$modal-xl:                          1140px;
+
+
+$modal-content-border-color:        transparent;
+$modal-content-border-width:        0;
+$modal-content-border-radius:       5px;
+$modal-content-box-shadow-xs:       none;
+$modal-content-box-shadow-sm-up:    none;
+
+@import "../../node_modules/bootstrap/scss/bootstrap";
